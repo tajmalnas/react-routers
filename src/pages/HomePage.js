@@ -12,7 +12,7 @@ const HomePage = () => {
   return (
     <>
         <h1>HomePage</h1>
-        <p>Go to <Link to='/products'>go to products page</Link></p>
+        <p>Go to <Link to='products'>go to products page</Link></p>
         <button onClick={navigateHandler}>Navigate</button>
     </>
   )
